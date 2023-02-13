@@ -93,3 +93,8 @@ const test = {
 for (const key in test) {
     console.log(key)
 }
+
+const stringsS = ['january', 'february', 'march', 'april']
+const [jan, feb, mar, apr] = stringsS
+
+console.log(feb)
